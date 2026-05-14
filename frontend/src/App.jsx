@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API = "http://localhost:8000";
+const API = "https://ticketing-backend-mfqq.onrender.com";
 
 const priorities = ["Low", "Medium", "High", "Critical"];
 const categories = ["IT Support", "HR", "Facilities", "Finance", "Security"];
