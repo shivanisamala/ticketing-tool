@@ -22,11 +22,11 @@ def next_id():
     return f"INC{val:04d}"
 
 SEED = [
-    {"id": "INC0001", "title": "VPN not connecting", "category": "IT Support", "priority": "High", "status": "In Progress", "assignee": "Alice M.", "created": "2025-05-10", "desc": "Unable to connect to VPN from home network since yesterday."},
-    {"id": "INC0002", "title": "Request new laptop", "category": "IT Support", "priority": "Medium", "status": "Open", "assignee": "Unassigned", "created": "2025-05-11", "desc": "Current laptop is 5 years old and running slow."},
-    {"id": "INC0003", "title": "AC not working in Room 204", "category": "Facilities", "priority": "Critical", "status": "Open", "assignee": "Bob T.", "created": "2025-05-12", "desc": "Air conditioning unit is completely offline. Room temp over 85F."},
-    {"id": "INC0004", "title": "Payroll discrepancy for April", "category": "Finance", "priority": "High", "status": "Pending", "assignee": "Carol P.", "created": "2025-05-09", "desc": "Overtime hours not reflected in April paycheck."},
-    {"id": "INC0005", "title": "Phishing email report", "category": "Security", "priority": "Critical", "status": "Resolved", "assignee": "Dana K.", "created": "2025-05-08", "desc": "Received suspicious email asking for credentials."},
+    {"id": "INC0001", "title": "VPN not connecting", "category": "IT Support", "priority": "High", "status": "In Progress", "assignee": "Alice M.", "created": "2026-05-10", "desc": "Unable to connect to VPN from home network since yesterday."},
+    {"id": "INC0002", "title": "Request new laptop", "category": "IT Support", "priority": "Medium", "status": "Open", "assignee": "Unassigned", "created": "2026-05-11", "desc": "Current laptop is 5 years old and running slow."},
+    {"id": "INC0003", "title": "AC not working in Room 204", "category": "Facilities", "priority": "Critical", "status": "Open", "assignee": "Bob T.", "created": "2026-05-12", "desc": "Air conditioning unit is completely offline. Room temp over 85F."},
+    {"id": "INC0004", "title": "Payroll discrepancy for April", "category": "Finance", "priority": "High", "status": "Pending", "assignee": "Carol P.", "created": "2026-05-09", "desc": "Overtime hours not reflected in April paycheck."},
+    {"id": "INC0005", "title": "Phishing email report", "category": "Security", "priority": "Critical", "status": "Resolved", "assignee": "Davis K.", "created": "2026-05-08", "desc": "Received suspicious email asking for credentials."},
 ]
 for t in SEED:
     tickets_db[t["id"]] = t
