@@ -170,7 +170,7 @@ export default function App() {
 
       {/* Header */}
       <div style={{ background: surface, borderBottom: `1px solid ${border}`, padding: "14px 28px", display: "flex", alignItems: "center", gap: 14, position: "sticky", top: 0, zIndex: 100 }}>
-        <div style={{ width: 32, height: 32, background: `${accent}22`, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16 }}>🎫</div>
+        <div style={{ width: 32, height: 32, background: `${accent}22`, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16 }}>❄️</div>
         <span style={{ fontWeight: 700, fontSize: 16 }}>
           ServiceDesk <span style={{ color: accent }}>Lite</span>
           <span style={{ fontSize: 10, color: accent, marginLeft: 8, fontWeight: 600, background: `${accent}15`, padding: "2px 7px", borderRadius: 4 }}>FastAPI</span>
